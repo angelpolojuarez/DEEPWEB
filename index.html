@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio Informativo | Deep Web</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0b1220;color:#e6e9ef}
+    header{background:linear-gradient(135deg,#1f2937,#0b1220);padding:40px 20px;text-align:center}
+    header h1{font-size:2.4rem;margin:0}
+    header p{max-width:900px;margin:12px auto 0;color:#c7cbd6}
+    nav{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:16px}
+    nav a{color:#9ddcff;text-decoration:none;border:1px solid #1f3b5f;padding:8px 14px;border-radius:8px}
+    section{padding:48px 20px;max-width:1200px;margin:auto}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+    .card{background:#111827;border:1px solid #1f2937;border-radius:16px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.25)}
+    .card img{width:100%;height:180px;object-fit:cover}
+    .card .content{padding:18px}
+    .card h3{margin:0 0 8px}
+    .card p{margin:0;color:#c7cbd6;line-height:1.5}
+    .badge{display:inline-block;background:#0ea5e9;color:#001018;padding:4px 10px;border-radius:999px;font-size:.75rem;margin-bottom:10px}
+    .hero-img{width:100%;max-height:360px;object-fit:cover;border-radius:18px;border:1px solid #1f2937}
+    footer{background:#0b1220;border-top:1px solid #1f2937;padding:24px;text-align:center;color:#9aa3b2}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Deep Web: Portafolio Informativo</h1>
+  <p>Un sitio educativo que explica qué es la Deep Web, cómo se diferencia de la Dark Web y ejemplos reales de uso cotidiano, todo presentado en un portafolio visual.</p>
+  <nav>
+    <a href="#que-es">¿Qué es?</a>
+    <a href="#ejemplos">Ejemplos</a>
+    <a href="#seguridad">Seguridad</a>
+    <a href="#galeria">Galería</a>
+  </nav>
+</header>
+
+<section id="que-es">
+  <span class="badge">Concepto</span>
+  <h2>¿Qué es la Deep Web?</h2>
+  <p>La <strong>Deep Web</strong> es la parte de Internet que no está indexada por los motores de búsqueda tradicionales. No aparece en Google porque su contenido está protegido por contraseñas, pagos o permisos especiales. Esto incluye información privada y servicios legítimos que usamos todos los días.</p>
+  <img class="hero-img" src="https://images.unsplash.com/photo-1510511450819-1f3d1d4c4d5b?q=80&w=1600&auto=format&fit=crop" alt="Tecnología y datos" />
+</section>
+
+<section id="ejemplos">
+  <span class="badge">Uso cotidiano</span>
+  <h2>Ejemplos comunes de Deep Web</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1556745757-8d76bdb6984b?q=80&w=1200&auto=format&fit=crop" alt="Banca en línea" />
+      <div class="content">
+        <h3>Banca en línea</h3>
+        <p>Consultas de saldo, transferencias y estados de cuenta protegidos por usuario y contraseña.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1584697964403-3b0d3b1b9f36?q=80&w=1200&auto=format&fit=crop" alt="Educación virtual" />
+      <div class="content">
+        <h3>Plataformas educativas</h3>
+        <p>Aulas virtuales, notas, materiales y foros accesibles solo para estudiantes registrados.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?q=80&w=1200&auto=format&fit=crop" alt="Correo electrónico" />
+      <div class="content">
+        <h3>Correo electrónico</h3>
+        <p>Mensajes privados y archivos personales que no son públicos ni indexables.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="seguridad">
+  <span class="badge">Información clave</span>
+  <h2>Deep Web vs Dark Web</h2>
+  <p>Es importante no confundir conceptos. La <strong>Deep Web</strong> es legal y necesaria para la privacidad. La <strong>Dark Web</strong>, en cambio, requiere software especial y puede implicar riesgos si no se usa con conocimiento.</p>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&w=1200&auto=format&fit=crop" alt="Seguridad informática" />
+      <div class="content">
+        <h3>Seguridad</h3>
+        <p>Usa contraseñas fuertes, verificación en dos pasos y evita enlaces sospechosos.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551808525-51a94da548ce?q=80&w=1200&auto=format&fit=crop" alt="Privacidad" />
+      <div class="content">
+        <h3>Privacidad</h3>
+        <p>La Deep Web protege datos personales y profesionales de accesos no autorizados.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <span class="badge">Portafolio visual</span>
+  <h2>Galería tecnológica</h2>
+  <div class="grid">
+    <img class="hero-img" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop" alt="Servidores" />
+    <img class="hero-img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop" alt="Código" />
+    <img class="hero-img" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1600&auto=format&fit=crop" alt="Redes" />
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Portafolio Educativo — Deep Web | Uso académico</p>
+</footer>
+
+</body>
+</html>
 
